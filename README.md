@@ -1,12 +1,13 @@
 # Checkr Yourself
 
-Vidéo Ice cube Check Yourself: https://www.youtube.com/watch?v=bueFTrwHFEs
+[![Vidéo Ice cube Check Yourself](https://img.youtube.com/vi/bueFTrwHFEs/0.jpg)](ttps://www.youtube.com/watch?v=bueFTrwHFEs)
 
 Heroku: https://j32-checkr-yoself-swy.herokuapp.com/
 
 Remarques:
 
-* Bug sur l'image de fond qui s répète, donc j'ai mis un fond bleu en attendant de trouver.
+* Bug sur l'image de fond qui se répète, donc on a mis un fond bleu en attendant de trouver.
+* Reste les boutons à optimiser
 
 ---
 
