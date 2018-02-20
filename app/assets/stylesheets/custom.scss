@@ -73,6 +73,7 @@ a {
 
 .menuright{
   display: flex;
+  margin:auto;
   font-size: 0.9rem;
   color: white;
 }
@@ -118,4 +119,48 @@ a {
 
 .video{
 
+}
+
+.button{
+    background-color: #E0BE2D;
+    border: none;
+    color: #314B68;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    border-radius: 5px;
+	padding: 2.2rem 3.6rem;
+    letter-spacing: 0.1em;
+    margin-top: 1.4em;
+    text-decoration: none;
+    line-height: 1.4;
+    cursor:pointer;
+}
+
+.button:hover{
+	opacity: 0.8;
+}
+.getstarted{
+    background-color: transparent;
+    border: 2px;
+    border-color: #E0BE2D;
+    border-style:solid;
+    color: #314B68;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 1.5rem 2.3rem 1.5rem;
+    letter-spacing: 0.1em;
+    margin-top: 1.4em;
+    text-decoration: none;
+    line-height: 1.4;
+    cursor:pointer;
+}
+
+.getstarted:hover{
+
+	background-color: #E0BE2D;
 }
