@@ -1,57 +1,112 @@
+@import url("dropdown.css");
+
 body {
-  background-image: image-url('checkr_header_industries-1.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3e70a1;
+  //background-color: rgba(0, 0, 255, 0.5); /* un arrière plan bleu à 50% de transparence */
+  //background-image: image-url('checkr_header_industries-1.jpg');
   background-size:cover;
+  font-family: 'Montserrat', Georgia, sans-serif;
+  //font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+a {
+  cursor: pointer;
 }
 
 .page {
 	display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-	width: 85%;
+  //flex-flow: wrap;
+  flex-direction: column;
+	width: 70%;
+  margin-top: 10px;
 }
 
 .top {
-  margin-top: 10px;
-  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  //font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-size: 0.9rem;
+  color: white;
 }
 
 .top li {
-  list-style-type: none;
   display: inline;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
 }
 
-.menu {
-  display: flex;
-  margin-top: 50px;
+.top a {
+    color: white;
+    text-decoration: none;
 }
-.menu li {
-  list-style-type: none;
-  display: inline;
+
+.top a:hover {
+  color: lightgrey;
+}
+
+.menuglobal {
+  display: flex;
+  justify-content: space-between;
+  //flex-flow: row;
+  //margin-top: 50px;
 }
 
 .menuleft{
   display: flex;
+  align-items: stretch;
 }
 
 .logo{
-
+  margin:auto;
+  background: image-url('logo.svg') 50% 50%/cover no-repeat;
+  width: 130px;
+  height: 33px;
+  left: 0;
+  font-size: 0;
 }
 
-.menu{
-
+.menu {
+  display: flex;
+  margin:auto;
 }
 
 .menuright{
+  display: flex;
+  font-size: 0.9rem;
+  color: white;
+  //justify-content: right;
+}
 
+.menuright li {
+  display: inline;
+}
+
+.menuright a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuright a:hover {
+  color: lightgrey;
 }
 
 .center{
   display: flex;
   justify-content: center;
-  margin-top: 300px;
+  //margin-top: 300px;
+  padding-top: 20px;
 }
 
 .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
