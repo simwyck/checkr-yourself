@@ -1,6 +1,6 @@
 # Checkr Yourself
 
-[![Vidéo Ice cube Check Yourself](https://img.youtube.com/vi/bueFTrwHFEs/0.jpg)](ttps://www.youtube.com/watch?v=bueFTrwHFEs)
+[![Vidéo Ice cube Check Yourself](https://img.youtube.com/vi/bueFTrwHFEs/0.jpg)](https://www.youtube.com/watch?v=bueFTrwHFEs)
 
 Heroku: https://j32-checkr-yoself-swy.herokuapp.com/
 
