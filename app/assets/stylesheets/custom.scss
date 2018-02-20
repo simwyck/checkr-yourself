@@ -4,12 +4,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  //background-image: image-url('checkr_header_industries_blue.gif');
+  //background-size:cover;
   background-color: #3e70a1;
-  //background-color: rgba(0, 0, 255, 0.5); /* un arrière plan bleu à 50% de transparence */
-  //background-image: image-url('checkr_header_industries-1.jpg');
-  background-size:cover;
   font-family: 'Montserrat', Georgia, sans-serif;
-  //font-family: 'Proxima Nova', Georgia, sans-serif;
 }
 
 a {
@@ -27,7 +25,6 @@ a {
 .top {
   display: flex;
   justify-content: flex-end;
-  //font-family: 'Proxima Nova', Georgia, sans-serif;
   font-size: 0.9rem;
   color: white;
 }
@@ -53,8 +50,6 @@ a {
 .menuglobal {
   display: flex;
   justify-content: space-between;
-  //flex-flow: row;
-  //margin-top: 50px;
 }
 
 .menuleft{
@@ -80,7 +75,6 @@ a {
   display: flex;
   font-size: 0.9rem;
   color: white;
-  //justify-content: right;
 }
 
 .menuright li {
@@ -99,7 +93,6 @@ a {
 .center{
   display: flex;
   justify-content: center;
-  //margin-top: 300px;
   padding-top: 20px;
 }
 
@@ -107,6 +100,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
 
 }
 
