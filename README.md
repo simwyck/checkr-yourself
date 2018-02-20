@@ -10,4 +10,4 @@ Remarques:
 
 ---
 
-Slack: @simwyck
+Par Pierrick, Jérémy, Arnold & Simon AKA La Team Bordeaux
