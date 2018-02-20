@@ -2,7 +2,7 @@
 
 Vidéo Ice cube Check Yourself
 
-Heroku:
+Heroku: https://j32-checkr-yoself-swy.herokuapp.com/
 
 ---
 
